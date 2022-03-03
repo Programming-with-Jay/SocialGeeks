@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+
+body {
+  background-color: #1c1c1c;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar {
+  background-color: #282828;
+  max-width: 500vh;
+  min-height: 8vh;
+  float: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+  padding-left: 2.7vh;
+  padding-top: 1.3vh;
+  padding-bottom: 1.3vh;
+  padding-right: 1.3vh;
+}
+
+li a {
+  display: inline-block;
+
+  text-align: center;
+  text-decoration: none;
+}
+.settings {
+  align-items: center;
+  background: hsla(217, 100%, 50%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 5vh;
+  border-radius: 1.3vh;
+  height: 5vh;
+}
+.direct-messages {
+  background: hsla(217, 100%, 50%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 5vh;
+  border-radius: 1.3vh;
+  height: 5vh;
+}
+.direct-messages:hover {
+  transform: scale(1.1);
+}
+.settings:hover {
+  transform: scale(1.1);
+}
+.search {
+  list-style-type: none;
+  background-color: #1c1c1c;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 1vh;
+  min-width: 100vh;
+  -webkit-padding-start: 2vh;
+  min-height: 5vh;
+  margin-right: 30vh;
+  font-size: 2.3vh;
+}
+.search::placeholder {
+  font-size: 2.3vh;
+  text-align: left;
+}
+.greeting {
+  display: inline-block;
+  font-size: 4vh;
+  margin-top: 1vh;
+  margin-left: 5vh;
+  width: 25vh;
+  height: 0vh;
+  font-family: "Nunito";
+  color: #fff;
+}
+.settings img {
+  margin-top: 0.3vh;
+}
+.direct-messages img {
+  margin-top: 0.3vh;
+}
